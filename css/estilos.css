@@ -1,0 +1,122 @@
+#modal{
+    background-image: url(/images/flor_bg.png);
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: #fede00;
+    padding: 0px;
+}
+#cards{
+    border: none;
+}
+
+.decoration{
+    background-image: url(/images/Contacto_03.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+#card_b{
+    background-color: #fede00;
+    font-size: 15px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#card_b:hover{
+    margin-top: -150px;
+    height: 250px;
+    transition: .9s;
+    opacity: 90%;
+    background: #fede00; 
+    padding-top: 40px;
+}
+
+/* .hide{
+    display: none;
+}
+
+.hide:hover{
+    display: inline !important;
+} */
+
+#line-card{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 110px; 
+    background: black;
+    top: 1px; 
+    border: none; 
+    height: 1px; 
+    margin-bottom: 1px;
+    opacity: 100%;
+}
+
+#line{
+    position: relative; 
+    top: 1px; 
+    border: none; 
+    height: 1px; 
+    background: #fede00; 
+    margin-bottom: 1px;
+    opacity: 100%;
+}
+
+#underline{
+    top: 1px; 
+    border: none; 
+    height: 1px; 
+    background: #fede00; 
+    margin-bottom: 1px;
+    opacity: 100%; 
+}
+
+.lorem-box{
+    text-align: left; 
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+#m-list:hover{
+    font-size: 31px;
+    font-weight: bold;
+}
+
+#f-list:hover{
+    font-weight: bold;
+}
+
+.b-background{
+    font-size: 40px; 
+    padding-top: 30px; 
+    text-align: center; 
+    height: 250px; 
+    background-color: #fede00; 
+    font-weight: normal;
+}
+
+#composition{
+    margin-top: -130px;
+    margin-bottom: 150px;
+}
+
+#img-t{
+    height: 250px; 
+    width: 250px; 
+    margin: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#menu{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#menu:hover{
+    text-decoration: underline;
+}
