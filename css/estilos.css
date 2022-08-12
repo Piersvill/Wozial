@@ -34,13 +34,15 @@
     padding-top: 40px;
 }
 
-/* .hide{
+.hide{
     display: none;
+    opacity: 0;
 }
 
-.hide:hover{
-    display: inline !important;
-} */
+#card_b:hover .hide{
+    display: block;
+    opacity: 1;
+}
 
 #line-card{
     margin-left: auto; 
@@ -119,4 +121,8 @@
 
 #menu:hover{
     text-decoration: underline;
+}
+
+#mdl-num{
+    line-height: 17px;
 }
