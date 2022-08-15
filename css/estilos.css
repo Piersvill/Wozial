@@ -36,12 +36,18 @@
 
 .hide{
     display: none;
-    opacity: 0;
 }
 
 #card_b:hover .hide{
     display: block;
-    opacity: 1;
+}
+
+.contenido{
+    opacity: 0;
+    transition-delay: 0.9s;
+}
+#card_b:hover .contenido{
+opacity: 1;
 }
 
 #line-card{
@@ -84,7 +90,6 @@
 }
 
 #m-list:hover{
-    font-size: 31px;
     font-weight: bold;
 }
 
@@ -133,4 +138,21 @@
     margin: 2px; 
     width: 200px; 
     height: 35px;
+}
+
+#form-t{
+    background: none; 
+    border-color: black; 
+    margin: 2px; 
+    width: 120px; 
+    height: 35px;
+}
+
+#contacto{
+    background-image: url(/images/Contacto_03.png); 
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: 100%;
+    background-color: #fede00; 
+    height: 20%;
 }
